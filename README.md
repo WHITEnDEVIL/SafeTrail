@@ -59,7 +59,7 @@ Every trekking season across high-altitude and deep-forest corridors (such as Hi
               └────────────────────────────────────────────────────────┘
 
 
-## ⚡ 3. Key Technical Innovations
+##  3. Key Technical Innovations
 
 ### A. Mathematical On-Device Geo-Fencing (Ray-Casting PIP)
 Rather than making continuous cloud API calls, the client evaluates whether a hiker is within a designated boundary polygon using the **Ray-Casting (Even-Odd) Algorithm**:
