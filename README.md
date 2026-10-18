@@ -80,7 +80,12 @@ Rather than making continuous cloud API calls, the client evaluates whether a hi
 
 
 
-Offline Data	                            GeoJSON (OpenStreetMap & ISRO Bhuvan)	                       Vectorized trail corridors and cliff/landslide danger zones
+**Team GeoVector
+Nikhil Kumar — Team Lead & System Architect
 
-State Sync	                              React Hooks & Dispatchers	                               Bidirectional simulation linking hiker SOS to command board
- 
+
+Team Members: Frontend Mobile Lead, GIS & Geo-Fencing Engineer, Network & BLE Specialist, Incident Operations Coordinator, Feasibility & Policy Analyst.
+
+
+
+
