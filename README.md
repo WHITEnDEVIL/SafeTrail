@@ -77,3 +77,18 @@ Rather than making continuous cloud API calls, the client evaluates whether a hi
 **Tier 2 (Opportunistic BLE Epidemic Mesh): In complete blackouts, devices advertise encrypted distress beacons. Passing hikers automatically relay the packet along the trail corridor without requiring manual pairing or interaction.
 
 **Tier 3 (Trailhead Overdue Protocol): If the phone battery is depleted due to extreme cold, the trailhead checkpost initiates an automated dispatch trigger when the pre-authorized permit window expires
+
+
+Layer	                                             Tools & Technologies	                                          Implementation Scope
+Command Portal	                         React.js, Tailwind CSS, Lucide Icons	                     Responsive incident dashboard and triage queue
+
+
+Mapping Engine                           	Leaflet, React-Leaflet, GeoJSON	                          Topological overlay rendering and perimeter demarcation
+
+
+Client Prototype	                         Freebuff / Vite Web Engine	                               Interactive tourist interface and dispatch simulation
+
+Offline Data	                            GeoJSON (OpenStreetMap & ISRO Bhuvan)	                       Vectorized trail corridors and cliff/landslide danger zones
+
+State Sync	                              React Hooks & Dispatchers	                               Bidirectional simulation linking hiker SOS to command board
+ 
