@@ -69,18 +69,18 @@ Rather than making continuous cloud API calls, the client evaluates whether a hi
 * **Optimization:** Incorporates an initial $\mathcal{O}(1)$ rectangular **Bounding Box (BBox)** filter to bypass trigonometric and edge arithmetic unless the hiker is within 200 meters of a perimeter.
 
 ### B. Multi-Tiered Fail-Safe SOS Pipeline
-**Tier 1 (2G SMS Fallback):** When 4G data bands drop, the modem transmits a single-burst uncompressed SMS packet encoded in 64 characters:
+##Tier 1 (2G SMS Fallback):** When 4G data bands drop, the modem transmits a single-burst uncompressed SMS packet encoded in 64 characters:
   
   [Timestamp (4B) | Lat-Long (8B) | Battery% (1B) | Medical ID (2B) | Checksum (2B)]
 
 
-**Tier 2 (Opportunistic BLE Epidemic Mesh): In complete blackouts, devices advertise encrypted distress beacons. Passing hikers automatically relay the packet along the trail corridor without requiring manual pairing or interaction.
+##Tier 2 (Opportunistic BLE Epidemic Mesh): In complete blackouts, devices advertise encrypted distress beacons. Passing hikers automatically relay the packet along the trail corridor without requiring manual pairing or interaction.
 
-**Tier 3 (Trailhead Overdue Protocol): If the phone battery is depleted due to extreme cold, the trailhead checkpost initiates an automated dispatch trigger when the pre-authorized permit window expires
+##Tier 3 (Trailhead Overdue Protocol): If the phone battery is depleted due to extreme cold, the trailhead checkpost initiates an automated dispatch trigger when the pre-authorized permit window expires
 
 
 
-**Team GeoVector
+##Team GeoVector
 Nikhil Kumar — Team Lead & System Architect
 
 
